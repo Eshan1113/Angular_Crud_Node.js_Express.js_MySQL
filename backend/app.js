@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const itemRoutes = require('./routes/itemRoutes'); // ✅ Correct path
+const itemRoutes = require('./routes/itemRoutes'); 
 const { validationResult } = require('express-validator');
 
 app.use(express.json());
